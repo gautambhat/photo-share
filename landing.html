@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>CS660 - Divyam Hansaria - U 04478133</title>
+  </head>
+  <style>
+    html,body{
+      background: url("bg_landing.jpg");
+      background-size: cover;
+      margin:0;
+      padding:0;
+    }
+    .textbox{
+      font-size: 1.7em;
+    border-style: none;
+    background: rgba(255,255,255,0.7);
+    padding: 0.2em;
+    width: 326px;
+    border-radius: 0.2em;
+}
+    }
+  </style>
+  <body>
+    <div id="header" style="color:white;height:6em;background:rgba(0,0,0,0.7);">
+      <span style="font-size:4em;">PhotoSpace</span>
+        <a href='home.php'>Home</a>&nbsp;
+    </div>
+    <div id="body">
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <center><form action="loginauth.php" method="POST">
+        <input required class="textbox" type="text" name="username" placeholder="username@example.com">
+        <input required class="textbox" type="password" name="passwrd" placeholder="*********">
+        <input type="submit" value="GO" style="font-size: 1.7em;padding: 0.2em;border-style: none;background: rgb(0, 167, 59);border-radius: 0.2em;color: white;">
+      </form><br><a style="color:white;font-style:bold;background:rgba(0,0,0,0.7)"href="register.php">REGISTER</a></center>
+    </div>
+    <div id="footer" style="width:100%;color:white;position:absolute;bottom:0;min-height:5em;background:rgba(0,0,0,0.7)">
+      <span>CS660 - PA1 - Divyam Hansaria - U 04478133</span>
+    </div>
+  </body>  
+</html>
